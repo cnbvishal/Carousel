@@ -1,0 +1,85 @@
+body{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+   
+}
+/* 
+navigation bar style
+*/
+.topnav {
+    background-color:#232F3E;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  /* Container Design */
+.slide-container{
+    position: relative;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+.slide img{
+    width: 100%;
+    
+}
+.arrow{
+    cursor: pointer;
+    position:absolute;
+    top: 45%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.897);
+    padding: 8px 19px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left:10px;
+}
+.caption{
+    color: #007185;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    text-align: center;
+    
+    padding: 3px 0px;
+}
+.slide{
+    display: none;
+}
+/* 
+*
+*
+*/
+.numbertext{
+   color: coral;
+}
+.text{
+    color: #007185;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    
+    </style>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Slidebar</a>
+  </div>
+    <div class="slide-container">
+
+      <div class="slide">
+        <img src="img/home.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="img/gif2.gif" alt="">
+      </div>
+      <div class="slide">
+       <img src="img/homemain.jpg" alt="">
+     </div>
+      <div class="slide">
+        <img src="img/blanket.jpg" alt="">
+      </div>
+
+      <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+      <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+    <!-- 
+      *
+      *
+      *
+     -->
+     <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="img/gif.gif" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="img/homemain.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="img/flower.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="img/blanket.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="img/workout.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="img/showpiece.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="img/home1.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="img/home2.jpg" style="width:100%">
+      </div>
+     </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
